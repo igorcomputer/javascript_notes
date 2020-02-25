@@ -1,0 +1,3 @@
+## Небольшой мануал и заметки по Javascript, jQuery, Plugins и Patterns
+
+В процессе наполнения...
