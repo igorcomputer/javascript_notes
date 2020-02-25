@@ -20,7 +20,6 @@ var   - Устаревший способ объявления переменн�
 - https://learn.javascript.ru/variables
 - https://www.youtube.com/watch?v=4o0uZR0-nnQ
 
-
 ### Типы данных
 
 ```
