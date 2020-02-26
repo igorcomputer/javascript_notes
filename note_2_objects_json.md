@@ -238,7 +238,7 @@ eval(code); // Привет
 - https://learn.javascript.ru/object-conversion - Преобразование объектов (для сведения) 
 - https://learn.javascript.ru/object-toprimitive - Преобразование объектов (новый материал) 
 - https://learn.javascript.ru/types-conversion - Преобразование типов (для простых типов данных) 
-- https://learn.javascript.ru/json - Преобразование в объект JSON (
+- https://learn.javascript.ru/json - JSON формат и методы преобразования JSON.parse, JSON.stringify
 - https://learn.javascript.ru/eval - Использование Eval 
 
 
