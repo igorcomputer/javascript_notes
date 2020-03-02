@@ -172,14 +172,14 @@ result()(); // Вызвали alert("Привет");
 Примеры: 
 
 ```javascript 
-const myFunc  = function() { };                // 1 - анонимая 
+const myFunc  = function() { };                // 1 - анонимная 
 const myFuncA = function myFuncA2() { };       // 2 - именованная 
-const myFuncB = () => { };                     // 3 - анонимая 
+const myFuncB = () => { };                     // 3 - анонимная 
 
 // Объявление функции в качествео объекта
-const myFuncC = new Function()                 // 4 - анонимаяconst property = Symbol('symbolProperty')
+const myFuncC = new Function()                 // 4 - анонимная const property = Symbol('symbolProperty') 
 
-const myObject = { 
+const myObject = {
   methodA: function() { },                     // 5 - анонимная
   methodB: function MyMethodB() {},            // 6 - именованная
   methodC: () => { },                          // 7 - анонимная
@@ -188,7 +188,7 @@ const myObject = {
 }
 
 function myFuncD() { };                        // 10 - именованная
-(function() { })()                             // 11 - анонимая
+(function() { })()                             // 11 - анонимная
 (function myFuncF(){ })()                      // 12 - именованная
 ```
 
