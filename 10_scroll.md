@@ -81,6 +81,7 @@ __Ссылки:__
 - https://learn.javascript.ru/onscroll
 - https://api.jquery.com/scrolltop/
 - https://api.jquery.com/scroll/
+- https://learn.javascript.ru/coordinates
 
 
 
