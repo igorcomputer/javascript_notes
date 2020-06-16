@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+ <title>Template html5 + Bootstrap 3 Styles</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+ <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    
+ <style>
+ h1 {font-size:18px;}
+ .item {border:1px solid silver; margin-bottom:10px;padding:5px; }
+ .item_add {border:1px solid red; margin-bottom:10px;padding:5px; }
+ </style>
+    
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    
+      <h1>Template html5 + Bootstrap 3 Styles</h1>
+      
+      
+      <div class="item" id="mouse1">Тише, мыши, кот на крыше</div>
+      
+      <div class="item" id="mouse2">Тише, мыши, кот на крыше</div>
+      
+      <div class="item" id="mouse3">Тише, мыши, кот на крыше</div>
+      
+      <div class="item" id="mouse4">Тише, мыши, кот на крыше</div>
+     
+    </div>
+  </div>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+<script>
+
+$('#mouse1').prepend('/начало/');
+$('#mouse1').append('/конец/');
+
+$('<div>/начало/</div>').prependTo('#mouse2');
+$('<div>/конец/</div>').appendTo('#mouse2');
+
+$('#mouse3').before('<div>/начало/</div>');
+$('#mouse3').after('<div>/конец/</div>');
+
+$("#mouse3").after($("p.item_add")); 
+
+$('<div>/начало/</div>').insertBefore('#mouse4'); 
+$('<div>/конец/</div>').insertAfter('#mouse4'); 
+
+</script>
+
+</body>
+</html>
